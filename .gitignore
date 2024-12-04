@@ -1,0 +1,95 @@
+# macOS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Environment Variables
+.env
+*.env
+*.env.*.local
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Data Files
+*.csv
+*.tsv
+*.dat
+*.data
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.hdf5
+*.sqlite
+*.db
+
+# Machine Learning
+*.model
+*.pickle
+*.joblib
+
+# Cache and temp files
+.cache/
+*.temp
+*.tmp
+
+# OS temporary files
+~$*
+
+# Build and output files
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# matplotlib generated figures
+.figure/
+
+# Test Reports
+*.pytest_cache/
+*.coverage
+.coverage.*
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
+*.backup
+
+# Ignore everything in 'notebooks' folder except .ipynb files
+notebooks/*
+!notebooks/*.ipynb
+
+# Ignore results and output folders
+results/
+output/
