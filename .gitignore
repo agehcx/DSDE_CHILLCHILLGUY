@@ -1,3 +1,6 @@
+Data.rar
+/Project/*
+
 # macOS-specific
 .DS_Store
 .AppleDouble
@@ -17,19 +20,16 @@ __pycache__/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Virtual Environments
 env/
 venv/
 ENV/
 .venv/
 .env/
 
-# Environment Variables
 .env
 *.env
 *.env.*.local
 
-# Logs and debugging
 *.log
 *.out
 *.err
@@ -86,10 +86,8 @@ dist/
 *.swo
 *.backup
 
-# Ignore everything in 'notebooks' folder except .ipynb files
 notebooks/*
 !notebooks/*.ipynb
 
-# Ignore results and output folders
 results/
 output/
